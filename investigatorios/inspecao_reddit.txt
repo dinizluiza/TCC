@@ -1,0 +1,119 @@
+Arquivo: C:\Users\luiza_cv9lc2j\TCC\data\reddit.ndjson (12.79 GB)
+Leitura: arquivo inteiro em 284 s
+Linhas lidas: 29,482,387 | válidas: 29,482,387 | vazias: 0 | JSON inválido: 0
+
+=== CAMPOS (colunas) ===
+campo              presente em  % linhas   null/vazio   tipos
+author              29,482,387    100.0%            0   str: 29,482,387
+date_post           29,482,387    100.0%            0   int: 19,616,675, str: 9,865,712
+id_post             29,482,387    100.0%            0   str: 29,482,387
+number_post         29,482,387    100.0%   26,995,315   NoneType: 26,995,315, float: 2,487,072
+subreddit           29,482,387    100.0%            0   str: 29,482,387
+text_post           29,482,387    100.0%          520   str: 29,482,387
+thread              29,482,387    100.0%            0   str: 29,482,387
+
+=== DATAS (date_post, UTC) ===
+Mais antiga: 2008-03-20 02:48:57+00:00 | mais recente: 2019-04-30 23:59:55+00:00 | inválidas ou ausentes: 0
+Posts por ano:
+  2008:       11,614
+  2009:       71,437
+  2010:      266,377
+  2011:      753,075
+  2012:    1,503,046
+  2013:    2,079,541
+  2014:    2,816,136
+  2015:    2,967,609
+  2016:    3,526,875
+  2017:    5,276,384
+  2018:    7,757,326
+  2019:    2,452,967
+
+=== SUBREDDITS (56 distintos) ===
+  MensRights                  4,500,023
+  depression                  3,942,917
+  MGTOW                       3,729,863
+  TheRedPill                  3,040,652
+  Braincels                   2,830,522
+  SuicideWatch                1,953,796
+  ForeverAlone                1,921,363
+  seduction                   1,721,436
+  asktrp                      1,695,886
+  Incels                      1,191,797
+  TheBluePill                   925,058
+  socialanxiety                 468,279
+  askseddit                     295,309
+  RedPillWomen                  287,579
+  marriedredpill                206,161
+  IncelsWithoutHate             163,820
+  ForeverAloneDating            153,039
+  PussyPass                     112,494
+  Incelselfies                   60,988
+  RedPillWives                   40,194
+  askanincel                     39,799
+  Intactivists                   29,970
+  Egalitarianism                 26,520
+  ForeverUnwanted                24,855
+  exredpill                      18,183
+  masculism                      15,556
+  fPUA                           10,877
+  becomeaman                      9,381
+  BlackPillScience                9,048
+  pickup                          8,361
+  MaleForeverAlone                6,306
+  Truecels                        6,121
+  SupportCel                      6,095
+  LadyMRAs                        5,428
+  rsd                             4,211
+  TRPOffTopic                     2,462
+  ThankTRP                        2,287
+  foreveraloneteens               2,077
+  IncelDense                      2,058
+  gymcels                         1,430
+  pua                             1,403
+  altTRP                          1,257
+  PhilosophyOfRape                1,116
+  mgtowmusic                      1,064
+  RedPillParenting                1,014
+  MRActivism                        903
+  mensrightslinks                   877
+  mensrightslaw                     548
+  MRRef                             483
+  Gold_Digger                       435
+  GEOTRP                            350
+  Truefemcels                       311
+  mgtowbooks                        216
+  gaycel                            117
+  Foreveralonelondon                 57
+  puascience                         35
+
+=== TAMANHO DO TEXTO (amostra de 294,823 posts) ===
+Mediana: 117 caracteres | mínimo: 0 | máximo: 33,212
+
+=== PRIMEIRAS 3 LINHAS ===
+{
+  "author": "333876225",
+  "date_post": 1546300841,
+  "id_post": "abcuq9",
+  "number_post": 1.0,
+  "subreddit": "depression",
+  "text_post": "Im scared my landlord will evict me because of a damaged couch. I have been renting a room in a student house for close to five years now. In the last year or so I accidentally cracked closet door and…",
+  "thread": "t3_abcuq9"
+}
+{
+  "author": "rebelarch86",
+  "date_post": 1546300848,
+  "id_post": "abcurw",
+  "number_post": 5.0,
+  "subreddit": "RedPillWives",
+  "text_post": "Are there any trad con parenting / fatherhood blogs? I'm an old school dad who rejects coddling and helicopter parenting. While my wife and I provide strong role models and a more naturalist lifestyle…",
+  "thread": "t3_abcurw"
+}
+{
+  "author": "Handheld_Gaming",
+  "date_post": 1546300852,
+  "id_post": "abcusl",
+  "number_post": 9.0,
+  "subreddit": "Braincels",
+  "text_post": "Its been 2019 for almost 1 hour And I am at a party with 120 people, half of them being foids. The last year had been the best in my life. I actually was happy living hope because I was redpilled to t…",
+  "thread": "t3_abcusl"
+}

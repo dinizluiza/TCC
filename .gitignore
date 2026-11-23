@@ -1,0 +1,5 @@
+*.ndjson
+*.parquet
+dados_por_ano/
+vetores/
+data/
