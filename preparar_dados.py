@@ -40,22 +40,36 @@ ARQUIVO_CATEGORIAS = os.path.join("manosphere_analysis", "data", "subreddit_cate
 COMUNIDADES = {"incels", "mgtow", "mra", "pua", "trp"}
 
 # ----------------------------------------------------------------------------- LIMPEZA
-LINK_MARKDOWN = re.compile(r"\[([^\]]*)\]\([^)]*\)")   # [texto](url) -> texto
+# Citações ("> texto de outra pessoa"): True remove a linha citada inteira, para cada texto conter
+# só as palavras do próprio autor (o post citado já está no dataset por conta própria).
+# False mantém o texto citado e tira só o sinal ">".
+REMOVER_CITACOES = True
+
+LINHA_CITADA = re.compile(r"(?m)^[ \t]*(&gt;|>).*$")      # linha inteira que começa com ">"
+MARCA_CITACAO = re.compile(r"(?m)^[ \t]*(&gt;|>)+[ \t]?")  # só o sinal ">" no início da linha
+LINK_MARKDOWN = re.compile(r"\[([^\]]*)\]\([^)]*\)")      # [texto](url) -> texto
 URL = re.compile(r"https?://\S+|www\.\S+")
-CITACAO = re.compile(r"(?m)^\s*(&gt;|>)+\s?")           # "> texto citado" -> "texto citado"
+ESCAPE_MARKDOWN = re.compile(r"\\([\\`*_{}\[\]()#+\-.!/~>|^])")   # "\/r\/incels" -> "/r/incels"
+SOBRESCRITO = re.compile(r"\^\(([^)]*)\)")                 # "^(texto)" -> "texto"
+ENFASE = re.compile(r"(?<!\w)(\*{1,3}|~~)(?=\S)(.+?)(?<=\S)\1(?!\w)")     # "*texto*", "**texto**", "~~texto~~" -> "texto"
 ESPACOS = re.compile(r"\s+")
 REMOVIDOS = {"[deleted]", "[removed]"}
+# Mensagens automáticas de bots (ex.: TotesMessenger: "I'm a bot, *bleep*, *bloop*")
+TEXTO_BOT = r"\bI(?:'|’| a)?m a bot\b|this action was performed automatically"
 
 
 def limpar(texto):
     """Tira só ruído técnico; mantém maiúsculas, pontuação e estrutura da frase."""
     if not isinstance(texto, str) or texto.strip() in REMOVIDOS:
         return ""
-    texto = CITACAO.sub("", texto)
-    texto = html.unescape(texto)              # &amp; &gt; &#x200B; -> caracteres reais
+    texto = (LINHA_CITADA if REMOVER_CITACOES else MARCA_CITACAO).sub("", texto)
+    texto = html.unescape(html.unescape(texto))   # 2x: o Reddit às vezes codifica duas vezes (&amp;nbsp;)
     texto = LINK_MARKDOWN.sub(r"\1", texto)
     texto = URL.sub(" ", texto)
-    texto = texto.replace("​", " ")      # espaço invisível comum no Reddit
+    texto = ESCAPE_MARKDOWN.sub(r"\1", texto)
+    texto = SOBRESCRITO.sub(r"\1", texto).replace("^", " ")
+    texto = ENFASE.sub(r"\2", texto)
+    texto = texto.replace("\u200b", " ")           # espaço invisível comum no Reddit
     return ESPACOS.sub(" ", texto).strip()
 
 
@@ -110,10 +124,11 @@ def separar_por_ano():
             removidos_por_subreddit[sub] = removidos_por_subreddit.get(sub, 0) + int(n)
         df = df[~fora]
 
+        bot = df[COL_TEXTO].str.contains(TEXTO_BOT, case=False, regex=True, na=False)
         if "author" in df.columns:
-            bot = df["author"].isin(AUTORES_BOT)
-            contagem["bots"] += int(bot.sum())
-            df = df[~bot]
+            bot |= df["author"].isin(AUTORES_BOT)
+        contagem["bots"] += int(bot.sum())
+        df = df[~bot]
 
         df["texto"] = df[COL_TEXTO].map(limpar)
         curto = df["texto"].str.len() < TAMANHO_MINIMO

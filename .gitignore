@@ -2,4 +2,6 @@
 *.parquet
 dados_por_ano/
 vetores/
-data/
+data/reddit.parquet
+data/conversao/ndjson.zip
+data/conversao/reddit.ndjson

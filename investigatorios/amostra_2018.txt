@@ -1,0 +1,166 @@
+Amostra do ano 2018
+
+=== 1. 30 POSTS ALEATÓRIOS (6 por comunidade: incels, mgtow, mra, pua, trp) ===
+
+--- #1 | r/Braincels | incels | limpeza alterou o texto? sim
+ORIGINAL: '"Oh look I am such a Grammarfag"\n\n"Praise Me"'
+LIMPO:    '"Oh look I am such a Grammarfag" "Praise Me"'
+
+--- #2 | r/Braincels | incels | limpeza alterou o texto? não
+ORIGINAL: "So what if she's a normal weight? She can still look fat even if her weight isnt in danger. She can have a belly, love handles, double chin, fat face etc."
+LIMPO:    "So what if she's a normal weight? She can still look fat even if her weight isnt in danger. She can have a belly, love handles, double chin, fat face etc."
+
+--- #3 | r/Braincels | incels | limpeza alterou o texto? não
+ORIGINAL: 'Jokes on you robots dont need consent.'
+LIMPO:    'Jokes on you robots dont need consent.'
+
+--- #4 | r/Braincels | incels | limpeza alterou o texto? sim
+ORIGINAL: '&gt;without catching flak\n\n\nhaha yes they do, which community do you think "who hurt you?" came from? But you\'re right that the mainstream let\'s them get away with a lot if this'
+LIMPO:    'without catching flak haha yes they do, which community do you think "who hurt you?" came from? But you\'re right that the mainstream let\'s them get away with a lot if this'
+
+--- #5 | r/Braincels | incels | limpeza alterou o texto? não
+ORIGINAL: 'Fuck off. Stupid cunt.'
+LIMPO:    'Fuck off. Stupid cunt.'
+
+--- #6 | r/Braincels | incels | limpeza alterou o texto? não
+ORIGINAL: 'A classist bitch and a wannabe Puritan? She’s too garbage to deserve a good man anyways.'
+LIMPO:    'A classist bitch and a wannabe Puritan? She’s too garbage to deserve a good man anyways.'
+
+--- #7 | r/MGTOW | mgtow | limpeza alterou o texto? não
+ORIGINAL: 'Sorry, I don’t understand what did you mean.'
+LIMPO:    'Sorry, I don’t understand what did you mean.'
+
+--- #8 | r/MGTOW | mgtow | limpeza alterou o texto? não
+ORIGINAL: 'He was falsely accused of rape and sent to prison'
+LIMPO:    'He was falsely accused of rape and sent to prison'
+
+--- #9 | r/MGTOW | mgtow | limpeza alterou o texto? sim
+ORIGINAL: 'Someone would nuke us.\n\nOur philosophy is small threat to this shitty society. We are IDEA that things can be alot better for in many ways, enslaved man.'
+LIMPO:    'Someone would nuke us. Our philosophy is small threat to this shitty society. We are IDEA that things can be alot better for in many ways, enslaved man.'
+
+--- #10 | r/MGTOW | mgtow | limpeza alterou o texto? sim
+ORIGINAL: 'You\'re correct about time with gay guys. To be frank, I\'m an 80s kid, not made of your typical millenial stuff. I don\'t have much patience for "tolerance" or what have you. I don\'t have a problem speaking with anybody really, and I love intellectual discussion and debate. But in real life I tend to avoid gay dudes as potential friends. It\'s just too uncomfortable, and your posts only reinforce my opinion. It\'s not cool to hang out with a guy who might literally be staring at my ass, wanting it for sex. I\'m not offended; I think "grossed out" would be a more accurate description.\n\nYour points sound a lot like potato-potahto. Gay, homosexual, lovers of men. Biologically we\'re made to procreate […]'
+LIMPO:    'You\'re correct about time with gay guys. To be frank, I\'m an 80s kid, not made of your typical millenial stuff. I don\'t have much patience for "tolerance" or what have you. I don\'t have a problem speaking with anybody really, and I love intellectual discussion and debate. But in real life I tend to avoid gay dudes as potential friends. It\'s just too uncomfortable, and your posts only reinforce my opinion. It\'s not cool to hang out with a guy who might literally be staring at my ass, wanting it for sex. I\'m not offended; I think "grossed out" would be a more accurate description. Your points sound a lot like potato-potahto. Gay, homosexual, lovers of men. Biologically we\'re made to procreate. […]'
+
+--- #11 | r/MGTOW | mgtow | limpeza alterou o texto? não
+ORIGINAL: "Thanks for the support because I'd hit rock bottom and was about to crack. "
+LIMPO:    "Thanks for the support because I'd hit rock bottom and was about to crack."
+
+--- #12 | r/MGTOW | mgtow | limpeza alterou o texto? sim
+ORIGINAL: "I always liked the pony car concept. Big enough to be fun without being wasted on the road.\n\nI can't be bothered to post a pic of my wheels. \nJust another boring, stock Mercedes AMG E300\n"
+LIMPO:    "I always liked the pony car concept. Big enough to be fun without being wasted on the road. I can't be bothered to post a pic of my wheels. Just another boring, stock Mercedes AMG E300"
+
+--- #13 | r/MensRights | mra | limpeza alterou o texto? não
+ORIGINAL: "Is this the empathy you were describing in your post? I mean if this is actually what you were getting at for how to treat feminists I think we would all agree that it's an okay goal. It wouldn't be everyone's goal, but there's nothing wrong with treating them with condescending insults. "
+LIMPO:    "Is this the empathy you were describing in your post? I mean if this is actually what you were getting at for how to treat feminists I think we would all agree that it's an okay goal. It wouldn't be everyone's goal, but there's nothing wrong with treating them with condescending insults."
+
+--- #14 | r/MensRights | mra | limpeza alterou o texto? não
+ORIGINAL: "And I've been flooded by alt-righters. But I'm going to assume neither of us has been screenshoted with someone famous and whose exchange would get shared by thousands."
+LIMPO:    "And I've been flooded by alt-righters. But I'm going to assume neither of us has been screenshoted with someone famous and whose exchange would get shared by thousands."
+
+--- #15 | r/MensRights | mra | limpeza alterou o texto? sim
+ORIGINAL: 'It sounds like you’re talking about fairness. I guess what I was trying to say is that young men should expect that other men as well as women are going to treat women better than men because of women’s in-group bias and men’s out-group bias. \n\nIn other words, I want to tell young not to expect to ever be treated fairly. I don’t know how to explain that to an emerging adult male without setting off an intrapsychic avalanche.'
+LIMPO:    'It sounds like you’re talking about fairness. I guess what I was trying to say is that young men should expect that other men as well as women are going to treat women better than men because of women’s in-group bias and men’s out-group bias. In other words, I want to tell young not to expect to ever be treated fairly. I don’t know how to explain that to an emerging adult male without setting off an intrapsychic avalanche.'
+
+--- #16 | r/MensRights | mra | limpeza alterou o texto? não
+ORIGINAL: 'Especially considering Men tend to pay far more into the tax system overall, they deserve to get something out of it.'
+LIMPO:    'Especially considering Men tend to pay far more into the tax system overall, they deserve to get something out of it.'
+
+--- #17 | r/MensRights | mra | limpeza alterou o texto? sim
+ORIGINAL: 'Women literally walk around naked as a form of "protest".  They just want attention.'
+LIMPO:    'Women literally walk around naked as a form of "protest". They just want attention.'
+
+--- #18 | r/MensRights | mra | limpeza alterou o texto? não
+ORIGINAL: "Well a lot of demolition crews wouldn't hire you because they'll assume you can't swing a 12lb sledge 10 hours a day..."
+LIMPO:    "Well a lot of demolition crews wouldn't hire you because they'll assume you can't swing a 12lb sledge 10 hours a day..."
+
+--- #19 | r/seduction | pua | limpeza alterou o texto? sim
+ORIGINAL: "What is your definition of flirting? Showing hints of interest? Escalating?\n\nBecause just showing you're into her and touching her sometimes isn't enough to build attraction. In a way it can even be an attraction killer because we value the things we work for so why would she feel the need to work for you when you're showing her so much interest and being so direct about it? Its like she works at a car dealership and the person that comes in approaches her and tells her he wants to buy the car she's standing next to, when she talks about pricing and other details he's all good, he just wants the car.\n\nShe already knows she has him, why should she feel the need to work to get him? And even if […]"
+LIMPO:    "What is your definition of flirting? Showing hints of interest? Escalating? Because just showing you're into her and touching her sometimes isn't enough to build attraction. In a way it can even be an attraction killer because we value the things we work for so why would she feel the need to work for you when you're showing her so much interest and being so direct about it? Its like she works at a car dealership and the person that comes in approaches her and tells her he wants to buy the car she's standing next to, when she talks about pricing and other details he's all good, he just wants the car. She already knows she has him, why should she feel the need to work to get him? And even if s […]"
+
+--- #20 | r/seduction | pua | limpeza alterou o texto? não
+ORIGINAL: 'Dude just approach a fat chick'
+LIMPO:    'Dude just approach a fat chick'
+
+--- #21 | r/seduction | pua | limpeza alterou o texto? sim
+ORIGINAL: 'No no no.\n\nSo the first thing, is that... approaching in general is difficult. That being said, the amount of girls that would approach a guy is probably like... 0.01%? I\'ve literally never ever seen this, unless a girl either comes up with her friends and just does the whole "hello, what race are you, where are you from" (which isn\'t really an approach), or they\'re tipsy / drunk and you\'re a 7 out of 10 or higher in the looks category. Again, just have never ever seen this. The amount of guys that can approach, is probably like .5% out of 100. Still low, but it\'s something we\'re able to do, and in most situations, the girl expects us to make the first move.\n\nBumble is a bad idea. The girls  […]'
+LIMPO:    'No no no. So the first thing, is that... approaching in general is difficult. That being said, the amount of girls that would approach a guy is probably like... 0.01%? I\'ve literally never ever seen this, unless a girl either comes up with her friends and just does the whole "hello, what race are you, where are you from" (which isn\'t really an approach), or they\'re tipsy / drunk and you\'re a 7 out of 10 or higher in the looks category. Again, just have never ever seen this. The amount of guys that can approach, is probably like .5% out of 100. Still low, but it\'s something we\'re able to do, and in most situations, the girl expects us to make the first move. Bumble is a bad idea. The girls do […]'
+
+--- #22 | r/seduction | pua | limpeza alterou o texto? não
+ORIGINAL: "Bro, relax. You're overthinking. You don't need to scale how hot girls are. Treat everyone as an equal and you'll be fine. "
+LIMPO:    "Bro, relax. You're overthinking. You don't need to scale how hot girls are. Treat everyone as an equal and you'll be fine."
+
+--- #23 | r/askseddit | pua | limpeza alterou o texto? sim
+ORIGINAL: "They're all basically the same.   \n\nBoy sees girl.   \n\nBoy walks over to girl.   \n\nBoy says/does something.   \n\nGirl reacts positively, negatively, or does not react.  \n\nGuy persists.  \n\nConversation opens.  \n\nFlirting/attraction behaviors.   \n\nComfort and rapport to build trust.   \n\nDealing with obstacles and logistics.  \n\nClose with number, social media contact information, kiss, or escape the public space for a private space and have sex.  \n\nYou're not at the point where author really makes a difference.  Any cook book is good enough if you have no idea what you're doing in the kitchen.   "
+LIMPO:    "They're all basically the same. Boy sees girl. Boy walks over to girl. Boy says/does something. Girl reacts positively, negatively, or does not react. Guy persists. Conversation opens. Flirting/attraction behaviors. Comfort and rapport to build trust. Dealing with obstacles and logistics. Close with number, social media contact information, kiss, or escape the public space for a private space and have sex. You're not at the point where author really makes a difference. Any cook book is good enough if you have no idea what you're doing in the kitchen."
+
+--- #24 | r/askseddit | pua | limpeza alterou o texto? não
+ORIGINAL: "I knew you'd come help him out."
+LIMPO:    "I knew you'd come help him out."
+
+--- #25 | r/asktrp | trp | limpeza alterou o texto? não
+ORIGINAL: 'Nah, she politely declined, but I accomplished my goal'
+LIMPO:    'Nah, she politely declined, but I accomplished my goal'
+
+--- #26 | r/TheRedPill | trp | limpeza alterou o texto? não
+ORIGINAL: 'Why even agree to have a bachelor/bachelorette party at that point. Like, wtf.'
+LIMPO:    'Why even agree to have a bachelor/bachelorette party at that point. Like, wtf.'
+
+--- #27 | r/asktrp | trp | limpeza alterou o texto? não
+ORIGINAL: 'Told group of girls in my circle I just am online dating for fwb [deleted]'
+LIMPO:    'Told group of girls in my circle I just am online dating for fwb [deleted]'
+
+--- #28 | r/TheRedPill | trp | limpeza alterou o texto? não
+ORIGINAL: 'I agree with you, but the alpha beta distinction is a way of simplifying it all in few words. Thats what it is, really. '
+LIMPO:    'I agree with you, but the alpha beta distinction is a way of simplifying it all in few words. Thats what it is, really.'
+
+--- #29 | r/asktrp | trp | limpeza alterou o texto? não
+ORIGINAL: "It wasn't a fight, I walked off with my mum and he ran across and swung and fled before I could even do anything."
+LIMPO:    "It wasn't a fight, I walked off with my mum and he ran across and swung and fled before I could even do anything."
+
+--- #30 | r/marriedredpill | trp | limpeza alterou o texto? não
+ORIGINAL: 'yep, basically you suck at the two main things your good for'
+LIMPO:    'yep, basically you suck at the two main things your good for'
+
+
+=== 2. 10 POSTS QUE TINHAM LINK, ENTIDADE HTML OU CITAÇÃO ===
+
+--- #1 | r/Braincels | incels | limpeza alterou o texto? sim
+ORIGINAL: '&gt; toxic masculinity \n\nMen only care about size because they fear it won’t please women. \n\nPlus, toxic masculinity? You mean like 50 shades? '
+LIMPO:    'toxic masculinity Men only care about size because they fear it won’t please women. Plus, toxic masculinity? You mean like 50 shades?'
+
+--- #2 | r/RedPillWomen | trp | limpeza alterou o texto? sim
+ORIGINAL: 'In which case you really don\'t belong here. \n\nThis is not a subreddit about how to get relationship-free sex, for the same reason that there is no "r/breathing" or "/r/chewingfood" subreddit. Any woman can catch a dick, even if she looks like Amy Schumer. The trick to reach the endzone without fumbling it. \n\nTherefore you neither need RPW advice, nor are you qualified to author any. [RPW is not a zoo](https://www.reddit.com/r/RedPillWomen/comments/7wqg3i/rpw_is_not_a_zoo/).'
+LIMPO:    'In which case you really don\'t belong here. This is not a subreddit about how to get relationship-free sex, for the same reason that there is no "r/breathing" or "/r/chewingfood" subreddit. Any woman can catch a dick, even if she looks like Amy Schumer. The trick to reach the endzone without fumbling it. Therefore you neither need RPW advice, nor are you qualified to author any. RPW is not a zoo.'
+
+--- #3 | r/ForeverAlone | incels | limpeza alterou o texto? sim
+ORIGINAL: '&gt; ewww noo!\n\nHoly fuck dude, that would completely obliterate my self esteem. Let her go man, if she was truly your friend she would never say something so rude and hurtful.'
+LIMPO:    'ewww noo! Holy fuck dude, that would completely obliterate my self esteem. Let her go man, if she was truly your friend she would never say something so rude and hurtful.'
+
+--- #4 | r/MGTOW | mgtow | limpeza alterou o texto? sim
+ORIGINAL: "&gt; What is your strategy?\n\n[I've got an idea...](https://local.theonion.com/becoming-a-mother-has-been-the-most-thrilling-experien-1830497817) ]=)"
+LIMPO:    "What is your strategy? I've got an idea... ]=)"
+
+--- #5 | r/Braincels | incels | limpeza alterou o texto? sim
+ORIGINAL: "&gt;But what I'd hope for most men is that they can enjoy and celebrate being men without hating women. \n\nWhy should anyone here enjoy and celebrate being a man in 2018. Being a man in our matriarchal society is like being a Jew during the Third Reich. "
+LIMPO:    "But what I'd hope for most men is that they can enjoy and celebrate being men without hating women. Why should anyone here enjoy and celebrate being a man in 2018. Being a man in our matriarchal society is like being a Jew during the Third Reich."
+
+--- #6 | r/Braincels | incels | limpeza alterou o texto? sim
+ORIGINAL: "&gt;Virtually all white people are alt right whether they know it or not\n\nMany incels (this sub's creator included) are Marxist. So please stop saying stupid crazy shit, sex-haver"
+LIMPO:    "Virtually all white people are alt right whether they know it or not Many incels (this sub's creator included) are Marxist. So please stop saying stupid crazy shit, sex-haver"
+
+--- #7 | r/MaleForeverAlone | incels | limpeza alterou o texto? sim
+ORIGINAL: 'I\'m a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit:\n\n- [/r/againsthatesubreddits] [\\/r\\/MaleForeverAlone is basically \\/r\\/incels with a new name: "Most females want to get brutally raped. Maybe we should grant them their wishes and make rape legal?"](https://www.reddit.com/r/AgainstHateSubreddits/comments/87zezu/rmaleforeveralone_is_basically_rincels_with_a_new/)\n\n&amp;nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don\'t vote in the other threads.) ^\\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*'
+LIMPO:    'I\'m a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit: - [/r/againsthatesubreddits] \\/r\\/MaleForeverAlone is basically \\/r\\/incels with a new name: "Most females want to get brutally raped. Maybe we should grant them their wishes and make rape legal?" &nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don\'t vote in the other threads.) ^\\(Info ^/ ^Contact)*'
+
+--- #8 | r/asktrp | trp | limpeza alterou o texto? sim
+ORIGINAL: 'You\'ve got to decide for yourself. \n\nNot appealing to nature, but if 60,000 years of human evolution are suddenly not working something is wrong here.\n\nSounds like a good way to make your mid-life crisis much worse IMO.\n\nIf you know all that, you wouldn\'t be here.\n\nGrass is greener on the other side, you\'ll soon find that out.\n\nHighest quality girls don\'t go to bars and clubs and places where "alpha-bros" go to "pickup chicks brah!". \n\nNot trying to be hard on you man, but take a serious look at what you\'re doing and decide for yourself. Check out both sides of the coin - guys with a wife, community, passions &amp; hobbies who went the traditional route &amp; the way we\'ve been doing it for  […]'
+LIMPO:    'You\'ve got to decide for yourself. Not appealing to nature, but if 60,000 years of human evolution are suddenly not working something is wrong here. Sounds like a good way to make your mid-life crisis much worse IMO. If you know all that, you wouldn\'t be here. Grass is greener on the other side, you\'ll soon find that out. Highest quality girls don\'t go to bars and clubs and places where "alpha-bros" go to "pickup chicks brah!". Not trying to be hard on you man, but take a serious look at what you\'re doing and decide for yourself. Check out both sides of the coin - guys with a wife, community, passions & hobbies who went the traditional route & the way we\'ve been doing it for 60,000 years, an […]'
+
+--- #9 | r/Braincels | incels | limpeza alterou o texto? sim
+ORIGINAL: "This is her on her wedding day. \n\nhttps://m.imgur.com/a/mZfPb\n\nThere's also a pic somewhere with the husband not wearing his trademark fedora. He's bald they pretty pretty looksmatched even though she was a fat cow. 🤠"
+LIMPO:    "This is her on her wedding day. There's also a pic somewhere with the husband not wearing his trademark fedora. He's bald they pretty pretty looksmatched even though she was a fat cow. 🤠"
+
+--- #10 | r/IncelsWithoutHate | incels | limpeza alterou o texto? sim
+ORIGINAL: '&gt; If they have biological children or not, doesn\'t matter. \n\nSo, basically, they live life as *"dignified"* incels instead of *"undignified"* incels.\n\nNice upgrade right there... :|\n\nIt\'s not like matriarchy makes sex more available to men...'
+LIMPO:    'If they have biological children or not, doesn\'t matter. So, basically, they live life as *"dignified"* incels instead of *"undignified"* incels. Nice upgrade right there... :| It\'s not like matriarchy makes sex more available to men...'

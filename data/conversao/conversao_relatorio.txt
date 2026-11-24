@@ -1,0 +1,14 @@
+Linhas lidas do ndjson:     29,482,387
+Linhas gravadas no parquet: 29,482,387   OK
+Datas que vieram como texto e foram convertidas: 9,865,712
+
+Valores nulos por coluna, antes e depois da conversão de tipos:
+           nulos_antes  nulos_depois  criados_na_conversao
+date_post            0             0                     0
+author               0             0                     0
+id_post              0             0                     0
+subreddit            0             0                     0
+text_post            0             0                     0
+thread               0             0                     0
+
+date_post: nenhuma data se perdeu na conversão.
