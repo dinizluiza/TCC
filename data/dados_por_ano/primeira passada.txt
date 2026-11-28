@@ -1,0 +1,2 @@
+Resumo da 1ª passada: {'lidos': 29482387, 'sem_data': 0, 'fora_do_periodo': 2452967, 'fora_da_machosfera': 6726736, 'vazios_ou_curtos': 2587033, 'bots': 76850}
+Subreddits removidos (fora das 5 comunidades): {'depression': 3606309, 'SuicideWatch': 1782663, 'TheBluePill': 909504, 'socialanxiety': 413153, 'exredpill': 15107}

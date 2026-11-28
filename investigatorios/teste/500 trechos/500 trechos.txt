@@ -1,0 +1,56 @@
+
+C:\Users\luiza_cv9lc2j\TCC>python investigatorios/teste_tempo.py 500 50
+Modo: AMOSTRA (500 trechos, 50 palavras de cada lado)
+Palavra 'engineer', ano 2015, modelo bert-base-cased
+
+> ler o ano...
+  1,841,087 posts em 2015
+  1.2 s
+> achar ocorrências...
+  'engineer' aparece em 1,870 posts
+  13.4 s
+> montar trechos...
+  500 trechos; palavras por trecho: mediana 69, máximo 101
+  0.0 s
+
+Dispositivo: cuda NVIDIA GeForce MX330
+> carregar o modelo...
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1190.05it/s]
+[transformers] BertModel LOAD REPORT from: bert-base-cased
+Key                                        | Status     |  |
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  |
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  |
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  |
+cls.seq_relationship.weight                | UNEXPECTED |  |
+cls.predictions.transform.dense.bias       | UNEXPECTED |  |
+cls.predictions.transform.dense.weight     | UNEXPECTED |  |
+cls.seq_relationship.bias                  | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  4.4 s
+> extrair vetores...
+  500/500 trechos
+  38.9 s
+
+================ RESULTADO ================
+Modo n500_w50 | 'engineer' | 2015 | bert-base-cased | cuda
+Ocorrências usadas: 500 (perdidas por passar do limite de tokens: 0)
+Vetor: 768 números, norma 1.000
+
+Tempos:
+  ler o ano                   1.2 s
+  achar ocorrências          13.4 s
+  montar trechos              0.0 s
+  carregar o modelo           4.4 s
+  extrair vetores            38.9 s
+  por trecho                 77.9 ms
+
+Projeção grosseira neste computador, SE toda palavra em todo ano tivesse 500 trechos como esta:
+  807 palavras × 500 × 11 anos × 3 modelos = 13,315,500 trechos → ~288.1 h (~96.0 h por modelo)
+  (a busca de ocorrências não entra: no script real ela é feita para todas as palavras numa leitura só de cada ano)
+
+Similaridade de cosseno entre 'n500_w50' e 'completo': 0.9977
+
+C:\Users\luiza_cv9lc2j\TCC>

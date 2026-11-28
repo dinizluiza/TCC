@@ -1,0 +1,50 @@
+TESTE DE VALIDAÇÃO — bert-base-cased — todas as frases (J1) x até 500 frases (J2)
+Vetores: data\vetores_teste\bert-base-cased | critério: r >= 0.95 entre os vieses, grupo B
+
+==================== 2012 ====================
+Palavras nos dois jeitos: 128 (gênero: 20 masc. + 20 fem.; com viés: 88) | grupo B (> 500 frases): 72
+Centroides: distância entre o centroide M do J1 e do J2 = 0.0086; F = 0.0068
+
+-- Grupo A (todas) --
+1. Cosseno J1 x J2: média 0.9996, mínimo 0.9977 (judge), n = 128
+2. Correlação dos vieses: r = 0.9998 (n = 88)
+   Diferença absoluta do viés: média 0.0005, máxima 0.0027 (artist); desvio dos vieses no J1 = 0.0412
+3. Viés médio ocupacoes    J1 = -0.0126  J2 = -0.0127  (n = 51)
+3. Viés médio inteligencia J1 = -0.0146  J2 = -0.0142  (n = 16)
+3. Viés médio aparencia    J1 = +0.0032  J2 = +0.0031  (n = 21)
+
+-- Grupo B (> 500 frases) --
+1. Cosseno J1 x J2: média 0.9993, mínimo 0.9977 (judge), n = 72
+2. Correlação dos vieses: r = 0.9997 (n = 39)  -> PASSA no critério r >= 0.95
+   Diferença absoluta do viés: média 0.0009, máxima 0.0027 (artist); desvio dos vieses no J1 = 0.0445
+3. Viés médio ocupacoes    J1 = -0.0133  J2 = -0.0134  (n = 18)
+3. Viés médio inteligencia J1 = -0.0176  J2 = -0.0172  (n = 7)
+3. Viés médio aparencia    J1 = -0.0036  J2 = -0.0038  (n = 14)
+
+-- 4. PP1 (ocupações) --
+Censo 2012 (logit da proporção de mulheres), n = 46: J1 inclinação 0.0262 r 0.754 | J2 inclinação 0.0261 r 0.753
+MTurk (estereótipo percebido), n = 34: J1 inclinação 0.0528 r 0.842 | J2 inclinação 0.0527 r 0.843
+
+==================== 2018 ====================
+Palavras nos dois jeitos: 159 (gênero: 20 masc. + 20 fem.; com viés: 119) | grupo B (> 500 frases): 103
+Centroides: distância entre o centroide M do J1 e do J2 = 0.0095; F = 0.0080
+
+-- Grupo A (todas) --
+1. Cosseno J1 x J2: média 0.9995, mínimo 0.9976 (man), n = 159
+2. Correlação dos vieses: r = 0.9997 (n = 119)
+   Diferença absoluta do viés: média 0.0009, máxima 0.0047 (beautiful); desvio dos vieses no J1 = 0.0444
+3. Viés médio ocupacoes    J1 = -0.0164  J2 = -0.0166  (n = 70)
+3. Viés médio inteligencia J1 = -0.0175  J2 = -0.0186  (n = 24)
+3. Viés médio aparencia    J1 = +0.0058  J2 = +0.0049  (n = 25)
+
+-- Grupo B (> 500 frases) --
+1. Cosseno J1 x J2: média 0.9993, mínimo 0.9976 (man), n = 103
+2. Correlação dos vieses: r = 0.9995 (n = 65)  -> PASSA no critério r >= 0.95
+   Diferença absoluta do viés: média 0.0011, máxima 0.0047 (beautiful); desvio dos vieses no J1 = 0.0438
+3. Viés médio ocupacoes    J1 = -0.0147  J2 = -0.0150  (n = 38)
+3. Viés médio inteligencia J1 = -0.0198  J2 = -0.0206  (n = 11)
+3. Viés médio aparencia    J1 = -0.0081  J2 = -0.0090  (n = 16)
+
+-- 4. PP1 (ocupações) --
+Censo: sem ano correspondente no arquivo do Garg (vai até 2015) — decisão pendente.
+MTurk (estereótipo percebido), n = 45: J1 inclinação 0.0561 r 0.833 | J2 inclinação 0.0561 r 0.833

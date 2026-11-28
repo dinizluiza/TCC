@@ -1,0 +1,67 @@
+C:\Users\luiza_cv9lc2j\TCC>python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
+2.14.1+cu126 True
+
+C:\Users\luiza_cv9lc2j\TCC>python investigatorios/teste_tempo.py
+Modo: COMPLETO (todas as ocorrências, post inteiro)
+Palavra 'engineer', ano 2015, modelo bert-base-cased
+
+> ler o ano...
+  1,841,087 posts em 2015
+  1.3 s
+> achar ocorrências...
+  'engineer' aparece em 1,870 posts
+  12.8 s
+> montar trechos...
+  1,870 trechos; palavras por trecho: mediana 120, máximo 351
+  0.1 s
+
+Dispositivo: cuda NVIDIA GeForce MX330
+> carregar o modelo...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 570/570 [00:00<00:00, 52.2kB/s]
+C:\Users\luiza_cv9lc2j\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\luiza_cv9lc2j\.cache\huggingface\hub\models--bert-base-cased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+tokenizer_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 49.0/49.0 [00:00<?, ?B/s]
+vocab.txt: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 213k/213k [00:00<00:00, 2.20MB/s]
+tokenizer.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 436k/436k [00:00<00:00, 5.48MB/s]
+C:\Users\luiza_cv9lc2j\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\luiza_cv9lc2j\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+model.safetensors: downloading bytes: █████████████████████████████████████████████████████████████████████████████████████████|  413MB, 4.48MB/s
+model.safetensors: reconstructing file: 100%|█████████████████████████████████████████████████████████████████████████|  436MB /  436MB, 25.8MB/s
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1393.58it/s]
+[transformers] BertModel LOAD REPORT from: bert-base-cased
+Key                                        | Status     |  |
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  |
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  |
+cls.predictions.transform.dense.bias       | UNEXPECTED |  |
+cls.seq_relationship.weight                | UNEXPECTED |  |
+cls.predictions.bias                       | UNEXPECTED |  |
+cls.predictions.transform.dense.weight     | UNEXPECTED |  |
+cls.seq_relationship.bias                  | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  96.4 s
+> extrair vetores...
+  1,870/1,870 trechos
+  1237.2 s
+
+================ RESULTADO ================
+Modo completo | 'engineer' | 2015 | bert-base-cased | cuda
+Ocorrências usadas: 1,870 (perdidas por passar do limite de tokens: 0)
+Vetor: 768 números, norma 1.000
+
+Tempos:
+  ler o ano                   1.3 s
+  achar ocorrências          12.8 s
+  montar trechos              0.1 s
+  carregar o modelo          96.4 s
+  extrair vetores          1237.2 s
+  por trecho                661.6 ms
+
+Projeção grosseira neste computador, SE toda palavra em todo ano tivesse 1,870 trechos como esta:
+  807 palavras × 1,870 × 11 anos × 3 modelos = 49,799,970 trechos → ~9151.9 h (~3050.6 h por modelo)
+  (a busca de ocorrências não entra: no script real ela é feita para todas as palavras numa leitura só de cada ano)

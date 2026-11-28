@@ -1,0 +1,6 @@
+modelo,etapa,frases,palavras,perdidos,segundos
+bert-base-cased,amostra 2012,174256,516.0,0.0,140
+bert-base-cased,amostra 2018,244215,608.0,0.0,203
+bert-base-cased,zscore,104684,,,105
+bert-base-cased,completo 2012,1249347,166.0,0.0,1058
+bert-base-cased,completo 2018,4701910,169.0,0.0,3807

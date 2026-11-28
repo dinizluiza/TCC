@@ -1,0 +1,41 @@
+C:\Users\luiza_cv9lc2j\TCC>python 3_amostrar_contextos.py
+Processando 9 períodos, 3 de cada vez...
+  2008: 9,960 posts lidos (4 s)
+  2009: 42,733 posts lidos (22 s)
+  2010: 185,101 posts lidos (124 s)
+2008-10: pronto em 131 s
+  2011: 547,390 posts lidos (306 s)
+2011: pronto em 314 s
+  2012: 1,007,944 posts lidos (629 s)
+2012: pronto em 638 s
+  2013: 1,280,098 posts lidos (874 s)
+2013: pronto em 885 s
+  2014: 1,694,448 posts lidos (1309 s)
+2014: pronto em 1320 s
+  2015: 1,841,087 posts lidos (1529 s)
+2015: pronto em 1542 s
+  2016: 2,182,060 posts lidos (1733 s)
+2016: pronto em 1744 s
+  2017: 3,328,535 posts lidos (1880 s)
+2017: pronto em 1885 s
+  2018: 5,184,359 posts lidos (1893 s)
+2018: pronto em 1896 s
+
+================ RESUMO ================
+Frases únicas na amostra: 1,736,254 (pares palavra-frase: 1,811,344)
+Frases para o z-score: 104,684
+Palavras com pelo menos 50 frases válidas, por período:
+periodo
+2008-10    381
+2011       453
+2012       516
+2013       548
+2014       576
+2015       590
+2016       588
+2017       600
+2018       608
+Frases no arquivo completo de 2012: 1,249,347
+Frases no arquivo completo de 2018: 4,701,910
+
+Arquivos em data\contextos/ -> suba essa pasta inteira no Kaggle como dataset

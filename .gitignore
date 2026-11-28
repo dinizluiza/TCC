@@ -1,7 +1,9 @@
 *.ndjson
 *.parquet
-dados_por_ano/
+*.zip
+*.npz
+*.npy
 vetores/
-data/reddit.parquet
-data/conversao/ndjson.zip
-data/conversao/reddit.ndjson
+
+__pycache__/
+.ipynb_checkpoints/

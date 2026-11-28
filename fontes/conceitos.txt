@@ -1,0 +1,16 @@
+Embeddings Contextuais
+Transformers
+Bert, Roberta e ModernBert
+Word2vec/glove vs Bert/Roberta/ModernBert
+
+Anisotropia, dimensões rebeldes -> z-score
+
+DECISOES
+Mínimo de 50
+Juntar anos com pouco volume
+Sorteio de 500 ocorrências
+Janela da frase
+Média dos pedaços quando a palavra é quebrada
+Concatenar as últimas 4 camadas
+Média das ocorrências como vetor da palavra
+Z-score para normalização
